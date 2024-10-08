@@ -6,12 +6,9 @@ int size,i,x,n;
 	printf("enter size of array");
 	scanf("%d",&size);
 	int arr[size];
-	printf("enter number: ");
-	scanf("%d",&n);
-	arr[i]=n;
-	for(i=1;i<size;i++)
+	for(i=0;i<size;i++)
 	{
-		printf("number:");
+		printf("enter any number:");
 		scanf("%d",&n);
 		arr[i]=n;
 	}
